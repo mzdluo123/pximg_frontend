@@ -53,7 +53,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseUrl :"http://localhost:8000",
+    baseUrl :"https://pximg.rainchan.win",
     credentials: false
   },
 

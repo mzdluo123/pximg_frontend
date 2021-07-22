@@ -12,8 +12,10 @@
       >
       <v-img
         v-bind:src="`${$axios.defaults.baseURL}/img?img_id=${item.id}&web=true`"
+
         cover
         width="auto"
+        min-width="100"
         max-width="260"
         height="320"
       >
